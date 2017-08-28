@@ -3,6 +3,8 @@ import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
 import HomeComponent from './HomeComponent';
 import CombinedForm from './combined/CombinedForm';
+import SeparatedForm from './separated/SeparatedForm';
+import Gallery from './Gallery';
 
 class App extends Component {
   render() {
@@ -22,6 +24,8 @@ class App extends Component {
             <div className="container">
               <Route exact path="/" component={HomeComponent} />
               <Route exact path="/combined" component={CombinedForm} />
+              <Route exact path="/separated" component={SeparatedForm} />
+              <Route exact path="/gallery" component={Gallery} />
             </div>
           </div>
         </Router>

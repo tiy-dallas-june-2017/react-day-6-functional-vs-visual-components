@@ -38,3 +38,8 @@ form input {
   margin: 10px 0;
   padding: 5px;
 }
+
+.person-list li {
+  color: blue;
+  margin: 5px 0;
+}
